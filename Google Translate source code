@@ -1,0 +1,21 @@
+
+<div class="translate">
+  <div id="google_translate_element">
+    <div dir="ltr" class="skiptranslate goog-te-gadget">
+      <div id=":0.targetLanguage">
+        <select class="goog-te-combo">
+          <option value="">Select Language</option>
+          <option value="af">Hindi</option>
+          <option value="sq">spanish</option>
+          <option value="ar">Arabic</option>
+        </select>
+      </div>
+      Powered by <span style="white-space: nowrap;"><a class="goog-logo-link" href="http://translate.google.com" target="_blank"><img style="padding-right: 3px;" src="http://www.google.com/images/logos/google_logo_41.png" width="37" height="13">Translate</a></span></div></div>
+  <script>
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+              pageLanguage: 'en'
+          }, 'google_translate_element');
+      }
+  </script>
+</div>

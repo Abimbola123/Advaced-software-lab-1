@@ -1,0 +1,59 @@
+div <html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Bars Near <?php echo $location; ?></title>
+  <head>
+    <style>
+      input[type=text] {
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: deeppink;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      input[type=text]:focus {
+        width: 100%;
+      }
+    </style>
+  </head>
+<body>
+
+<p>youtube search form:</p>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+</body>
+</html>
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <img class="logo" src="images/logo.png" alt="video" />
+    <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/5hUeJU_Ao_w">
+    </iframe>
+
+</body>
+</html>
+<div class="mapdiv">
+  <?php
+
+
+    </div>
+  </div>
+</div>
+</body>
+</html>

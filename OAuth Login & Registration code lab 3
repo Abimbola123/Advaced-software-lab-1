@@ -1,0 +1,25 @@
+dmeta name="google-signin-client_id" content="284825926881-lu41oueqvm0k0oods5n0n98uom3lg3cb.apps.googleusercontent.com">
+
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<h4>Name:</h4>
+<p id = "name"></p>
+<h4>Email:</h4>
+<p id = "email"></p>
+<h4>Picture:</h4>
+<img src="" alt="" id ="picture">
+
+<script>
+  //https://developers.google.com/identity/sign-in/web/sign-in
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+
+        var name_html = document.getElementById("name");
+        name_html.innerHTML = profile.getName();
+        var email_html = document.getElementById("email");
+        email_html.innerHTML = profile.getEmail();
+        var picture_html = document.getElementById("picture");
+        picture_html.src = profile.getImageUrl();
+    }
+
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
