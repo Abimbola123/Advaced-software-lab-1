@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+</article>
+
+
+<article>
+    <h2>Media</h2>
+    <p>Audio</p>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <p>Video</p>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</article>
+<h2>This is Abimbola</h2>
+<img src="img.JPG" alt="img.jpg" style="width:128px;height:128px;">
+</body>
+</html>
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        img:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    </style>
+</head>
+<body>
+
+
+</body>
+</html
